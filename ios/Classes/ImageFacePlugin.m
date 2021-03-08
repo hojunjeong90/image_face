@@ -19,7 +19,7 @@
   }
 }
 
-- (BOOL)checkFace:(NSString*)p{
+- (int)checkFace:(NSString*)p{
     
     NSURL * urlStr = [NSURL fileURLWithPath:p];
 
@@ -36,9 +36,9 @@
               [[myImage properties] valueForKey:kCGImagePropertyOrientation] }; // 4
     NSArray *features = [detector featuresInImage:myImage options:opts];        // 5
     if (features.count >0) {
-        return YES;
+        return features.count;
     } else {
-        return NO;
+        return 0;
     }
 }
 

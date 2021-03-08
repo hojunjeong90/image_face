@@ -50,14 +50,7 @@ public class ImageFacePlugin implements FlutterPlugin, MethodCallHandler {
     if (call.method.equals("hasFace")) {
       appUtil apputil=new appUtil();
       String strpath=call.argument("image");
-      if(apputil.HasFace(strpath))
-      {
-        result.success(true);
-      }
-      else
-      {
-        result.success(false);
-      }
+      result.success(apputil.HasFace(strpath));
     } else {
       result.notImplemented();
     }

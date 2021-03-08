@@ -19,7 +19,7 @@ public class appUtil {
      * @param Path
      * @return
      */
-    public boolean HasFace(String Path)
+    public int HasFace(String Path)
     {
         int hwidth=1280;
         int hheight=720;
@@ -27,11 +27,11 @@ public class appUtil {
         Log.e("Path","nndPath:"+Path);
         try {
             if (Path == null || Path.length() == 0) {
-                return false;
+                return 0;
             }
             File file = new File(Path);
             if (!file.exists()) {
-                return false;
+                return 0;
             }
             Log.e("Path","nndPath111111:"+Path);
             Bitmap imageBitmap = ImageUtils.getBitmap(Path, hwidth, hheight);
@@ -41,12 +41,12 @@ public class appUtil {
         }
         catch (Exception e)
         {
-            return false;
+            return 0;
         }
         if (facesize>0)
         {
-            return true;
+            return facesize;
         }
-        return false;
+        return 0;
     }
 }

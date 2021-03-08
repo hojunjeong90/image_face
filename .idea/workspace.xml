@@ -1,45 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="image_face.dart" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/image_face.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="ChangeListManager">
+    <list default="true" id="a8938804-5dad-4286-8bf8-6e962c5f0afa" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ToolWindowManager">
-    <editor active="true" />
-    <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-    </layout>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <option name="show-excluded-files" value="false" />
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1pTVAgWIaDeHr3FHZcGWwndssHo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="dart.analysis.tool.window.force.activate" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="flutter.settings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a8938804-5dad-4286-8bf8-6e962c5f0afa" name="Default Changelist" comment="" />
+      <created>1615206924727</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615206924727</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="781" y="356" key="SettingsEditor" timestamp="1615207150962">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="781" y="356" key="SettingsEditor/0.0.2560.1440/-1080.-431.1080.1920@0.0.2560.1440" timestamp="1615207150962" />
+    <state x="880" y="457" key="Vcs.Push.Dialog.v2" timestamp="1615207384997">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="880" y="457" key="Vcs.Push.Dialog.v2/0.0.2560.1440/-1080.-431.1080.1920@0.0.2560.1440" timestamp="1615207384997" />
+    <state x="972" y="475" width="645" height="490" key="find.popup" timestamp="1615207029353">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="972" y="475" width="645" height="490" key="find.popup/0.0.2560.1440/-1080.-431.1080.1920@0.0.2560.1440" timestamp="1615207029353" />
   </component>
 </project>

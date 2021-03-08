@@ -12,7 +12,7 @@
 - (void)handleMethodCall:(FlutterMethodCall*)call result:(FlutterResult)result {
   if ([@"hasFace" isEqualToString:call.method]) {
       NSString *p = [call.arguments objectForKey:@"image"];
-      BOOL rst =[self checkFace:  p];
+      int rst =[self checkFace:  p];
       result(@(rst));
   } else {
     result(FlutterMethodNotImplemented);
